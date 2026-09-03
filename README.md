@@ -16,3 +16,4 @@ Cada pasta possui seu próprio `README.md` com instruções de execução.
 ## Autor
 
 Aluno – Curso de Teste e Qualidade de Software
+HEITOR SAUERESSIG MELLO 24042002-2
