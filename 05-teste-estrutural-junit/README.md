@@ -1,27 +1,25 @@
-# Teste estrutural — JUnit (SEMANA 06)
+# 05 – Teste Estrutural com JUnit
 
-## Projetos
+**Atividade da Prova 01 (0,75 ponto)** + projeto avançado.
 
-### 1. `boletim-simples/`
-Introdução a testes unitários e cobertura.
-- Testes completos de `Boletim` (média, situação nos limites 4 e 7, laço com 0/1/N)
-- Testes das 4 combinações de `Participacao.calcularPontos`
+## Pastas
 
-```bash
-cd boletim-simples
-mvn test
-mvn jacoco:report   # se o plugin estiver no pom
-```
+| Pasta | Descrição |
+|-------|-----------|
+| `boletim-simples/` | Projeto oficial da SEMANA06 – 4 métodos + testes + JaCoCo (Prova 01) |
+| `central-pedidos/` | Projeto avançado com múltiplas classes e testes unitários |
 
-### 2. `central-pedidos/`
-Laboratório principal de teste estrutural (McCabe + JaCoCo).
-- Suíte completa de testes JUnit 5 para todas as classes
-- `RELATORIO.md` com CFGs, complexidade, matriz de testes e análise crítica
+## Como executar o boletim-simples (Prova 01)
 
 ```bash
-cd central-pedidos
+cd 05-teste-estrutural-junit/boletim-simples
 mvn clean test
-# Abrir target/site/jacoco/index.html
+# Abra o relatório de cobertura:
+# target/site/jacoco/index.html
 ```
 
-**Importante:** não altere o código de produção; apenas os testes e o relatório.
+## Objetivo
+
+- Cobertura de linhas, branches e métodos
+- Valores-limite (4 e 7)
+- Todas as combinações de `Participacao.calcularPontos`

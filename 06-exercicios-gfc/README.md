@@ -1,15 +1,20 @@
-# Exercícios GFC — Revisão (SEMANA 07)
+# 06 – Exercícios de Grafos de Fluxo de Controle (GFC)
 
-Resoluções dos dois exercícios de Grafo de Fluxo de Controle:
+**Atividade da Prova 01 (0,75 ponto)**  
+Resolução dos exercícios da SEMANA07_REVISÃO.
 
-1. `exercicio1-classificar-pedido.md` — classificação de pedido (3 decisões, V(G)=4)
-2. `exercicio2-contar-alertas.md` — contagem de alertas com while (3 decisões, V(G)=4)
+## Conteúdo
 
-Ambos incluem:
-- blocos básicos
-- decisões
-- CFG textual
-- N, E e V(G) pelas duas fórmulas
-- base de caminhos independentes
-- dados de teste e resultados esperados
-- respostas às questões de discussão
+| Arquivo | Exercício |
+|---------|-----------|
+| `exercicio1-classificar-pedido.md` | Classificação de pedido (3 decisões) |
+| `exercicio2-contar-alertas.md` | Contagem de alertas de temperatura (while + if/else if) |
+
+## O que cada resolução contém
+
+- Divisão em blocos básicos
+- Identificação das decisões
+- Desenho do CFG (texto)
+- Cálculo da complexidade ciclomática (duas fórmulas)
+- Base de caminhos independentes + dados de teste
+- Respostas às questões de discussão
